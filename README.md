@@ -6,7 +6,7 @@ English | [简体中文](./README-zh_CN.md)
 
 You can adjust the parameters on this [online example](https://pomelo-nwu.github.io/watermark-for-react/)
 
-![snapshot](./src/snapshot.png)
+![snapshot](https://cdn.nlark.com/yuque/0/2018/png/160133/1541611442451-assets/web-upload/97eb59c3-de27-49f0-85c7-59b52845b534.png)
 
 or you can `cd demo` and run this app 
 
