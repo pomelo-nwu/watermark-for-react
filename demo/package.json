@@ -5,6 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "demo": "webpack -c ./webpack.config.js ",
+    "gh-pages": "rimraf lib && webpack -c ./webpack.config.js",
     "start": "webpack-dev-server"
   },
   "author": "",
