@@ -1,0 +1,41 @@
+{
+  "name": "watermark-for-react",
+  "version": "0.1.0",
+  "description": "watermark components for React ",
+  "main": "lib/index.js",
+  "scripts": {
+    "precommit": "npm run build",
+    "build": "rimraf lib && babel src -d lib ",
+    "start": "babel src --watch -d lib --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [
+    "react",
+    "component",
+    "watermark",
+    "react-watermark",
+    "水印",
+    "水印组件",
+    "react-component"
+  ],
+  "author": "pomelo-nwu (https://github.com/pomelo-nwu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pomelo-nwu/watermark-for-react/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "cross-env": "^5.2.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "react": "^16.6.0"
+  }
+}

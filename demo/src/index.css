@@ -1,0 +1,13 @@
+.slider-container{
+
+    display: block;
+    padding:24px;
+
+}
+.slider-name>span:first-child{
+    font-size: 20px; 
+    display: block
+}
+.slider-name>span:last-child{
+    font-size: 12px; 
+}
