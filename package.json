@@ -1,41 +1,34 @@
 {
-  "name": "watermark-for-react",
-  "version": "0.1.0",
-  "description": "watermark components for React ",
-  "main": "lib/index.js",
+  "name": "demo-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
   "scripts": {
-    "precommit": "npm run build",
-    "build": "rimraf lib && babel src -d lib ",
-    "start": "babel src --watch -d lib --source-maps"
+    "demo": "webpack -c ./webpack.config.js ",
+    "gh-pages": "rimraf lib && webpack -c ./webpack.config.js",
+    "start": "webpack-dev-server"
   },
-  "repository": {
-    "type": "git",
-    "url": " "
-  },
-  "keywords": [
-    "react",
-    "component",
-    "watermark",
-    "react-watermark",
-    "水印",
-    "水印组件",
-    "react-component"
-  ],
-  "author": "pomelo-nwu (https://github.com/pomelo-nwu)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pomelo-nwu/watermark-for-react/issues"
-  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
-    "cross-env": "^5.2.0",
-    "rimraf": "^2.6.2"
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "react": "^16.6.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "react": "^16.6.0"
+    "@material-ui/core": "^3.4.0",
+    "@material-ui/lab": "^3.0.0-alpha.23",
+    "react-dom": "^16.6.0",
+    "react-hot-loader": "^4.3.12",
+    "watermark-for-react": "^0.1.0"
   }
 }
